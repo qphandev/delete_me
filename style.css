@@ -1,0 +1,65 @@
+body {
+    background: transparent; /* Make it white if you need */
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .App {
+    color: #72a24d;
+  }
+  
+  
+  
+  .faux-dropdown {
+    position: relative;
+    font-family: Arial, sans-serif;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .dropdown-selected {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-arrow {
+    color: #888888;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-options li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-options li:hover,
+  .dropdown-options li.selected {
+    background-color: rgb(50, 50, 223);
+    color: white;
+  }
+  
+  .long-dropdown {
+    width: 500px;
+  }
